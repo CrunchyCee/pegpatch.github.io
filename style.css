@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+h1, ul, li, p {
+  margin: 0;
+  padding: 0;
+  color: hsl(360, 100%, 100%);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+html {
+}
+
+body {
+  background: hsl(360, 100%, 0%);
+}
+
+h1 {
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+}
+
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center2 {
+  text-align: center;
+}
+
+.gallery-img {
+  margin: 20px 0px;
+}
+
+#top-img {
+  margin-top: 40px;
+}
+
+#bottom-img {
+  margin-bottom: 40px;
+}
+
+#about-img {
+  display: inline-block;
+  width: 400px;
+  height: 100%;
+  position: relative;
+  top: 25%;
+  left: 15%;
+}
+
+#about-text {
+  display: inline-block;
+  width: 400px;
+  height: 100%;
+  text-align: left;
+  vertical-align: top;
+  position: relative;
+  top: 45%;
+  left: 10%;
+}
